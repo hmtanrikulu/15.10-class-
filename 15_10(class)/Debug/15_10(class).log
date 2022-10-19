@@ -1,0 +1,7 @@
+﻿  Kaynak.cpp
+C:\Users\HAŞMET\source\repos\15_10(class)\15.10_2 (class)\Kaynak.cpp(26,43): warning C4244: 'bağımsız değişken': '_Rep' - 'int' dönüşümü; veri kaybı olabilir
+          with
+          [
+              _Rep=__int64
+          ]
+  15_10(class).vcxproj -> C:\Users\HAŞMET\source\repos\15_10(class)\Debug\15_10(class).exe
