@@ -55,7 +55,6 @@ class database {
 		}
 	};
 	vector <user> users;
-public:
 	bool doesUserExist(string n, string ln) {
 		for (int i = 0; i < users.size(); i++) {
 			if (users[i].name() == n && users[i].lastName() == ln) {
@@ -64,6 +63,7 @@ public:
 		}
 		return false;
 	}
+public:
 	void createUser(
 		string username,
 		string lastname,
@@ -100,6 +100,5 @@ int main() {
 		3,
 		1998
 	);
-	cout << user1.age();
 	return 0;
 }
